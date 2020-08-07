@@ -1,0 +1,6 @@
+{
+    "cucumberautocomplete.steps": [
+        "cypress/integration/**/steps.js"
+        ],
+        "cucumberautocomplete.syncfeatures": "cypress/integration/*.feature"
+}
