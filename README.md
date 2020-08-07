@@ -17,10 +17,10 @@ $ git clone https://github.com/jcarboni2/CursoCypressAgilizei.git
 
 ### Pré requisito
 
-Antes de iniciar seus testes, você precisa ter uma versão do node instalada. Acessar a pasta do projeto e executar o seguinte comando para instalar o cypress:
+Antes de iniciar seus testes, você precisa ter uma versão do node instalada. Acessar a pasta do projeto e executar o seguinte comando para instalar o cypress e respectivas dependências:
 
 ```
-npm install cypress --save-dev
+npm install
 ```
 
 ### Modo de execução
