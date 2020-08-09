@@ -5,13 +5,13 @@ node_modules/
 mochawesome-report
 
 #Relatórios cucumber
-reports/index.html
-reports/index.html.json
-reports/cucumber-json/**
+cypress/reports/index.html
+cypress/reports/index.html.json
+cypress/reports/cucumber-json/**
 
 #Videos e Screenshots
-videos/
-screenshots/
+cypress/videos
+cypress/screenshots
 
 #Outros
 .DS_Store
