@@ -12,6 +12,7 @@
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
 const cucumber = require('cypress-cucumber-preprocessor').default
+const fs = require('fs-extra')
 /**
  * @type {Cypress.PluginConfig}
  */
@@ -20,3 +21,6 @@ module.exports = (on, config) => {
   // `config` is the resolved Cypress config
   on('file:preprocessor', cucumber())
 }
+
+/*Create the necessary folder for the report if it does not exist*/
+fs.ensureDirSync('cypress/reports/cucumber-json');

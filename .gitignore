@@ -5,9 +5,7 @@ node_modules/
 mochawesome-report
 
 #Relatórios cucumber
-cypress/reports/index.html
-cypress/reports/index.html.json
-cypress/reports/cucumber-json/**
+cypress/reports
 
 #Videos e Screenshots
 cypress/videos

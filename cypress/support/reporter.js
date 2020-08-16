@@ -7,6 +7,7 @@ const options = {
     reportSuiteAsScenarios: true,
     scenarioTimestamp: true,
     launchReport: true,
+    columnLayout: 1,
     metadata: {
         "App Name":"Demo Automation",
         "Test Environment": "STAGING",
